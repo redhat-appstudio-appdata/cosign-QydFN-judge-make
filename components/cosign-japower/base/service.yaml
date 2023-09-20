@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: cosign-japower
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: cosign-japower
+    app.kubernetes.io/part-of: cosign
+  name: cosign-japower
+spec:
+  ports:
+  - port: 8080
+    targetPort: 8080
+  selector:
+    app.kubernetes.io/instance: cosign-japower
+status:
+  loadBalancer: {}
