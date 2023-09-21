@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: cosign-japower
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/japower-tenant/cosign/cosign-japower@sha256:a1f2b1094058c94be4771bc68a9ac33e520e2d15d056319f4a0c1cc1b140f712
+      - image: quay.io/redhat-user-workloads/japower-tenant/cosign/cosign-japower@sha256:25a85a1a3855a29434e94396b6131735131ebd182f236e1b2defcb39c163d518
         imagePullPolicy: Always
         name: container-image
         ports:
