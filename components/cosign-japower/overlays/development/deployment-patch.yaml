@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/japower-tenant/cosign/cosign-japower@sha256:9d4895f01115736ef3c57351eb0016a30cb24131956102c406c6947d1e5a4732
+      - image: quay.io/redhat-user-workloads/japower-tenant/cosign/cosign-japower@sha256:25a85a1a3855a29434e94396b6131735131ebd182f236e1b2defcb39c163d518
         name: container-image
         resources: {}
 status: {}
